@@ -14,7 +14,7 @@ public class GameLauncher {
             String input = Console.readLine();
 
             // Check if the input is "end" to end the game launcher
-            if (input.equalsIgnoreCase("end")) {
+            if ("end".equals(input)) {
                 playAgain = false;
             }
         } while (playAgain);
